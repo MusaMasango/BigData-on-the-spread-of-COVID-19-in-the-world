@@ -14,6 +14,12 @@ To do this, the division of the DataSet into training and test sets will be demo
 
 At the end of the project, we will visualize the dynamics of COVID-19 infection spread on interactive maps.
 
+## Code and Resources used
+
+**Python Version**:3.9.12 \
+**Packages**:pandas,numpy,sklearn,matplotlib,seaborn \\ 
+**Data Source**:https://ourworldindata.org/coronavirus \
+
 ## Materials and Methods
 In this project, we will learn the basic methods of time series forecasting and their visualization on interactive maps. The project consists of three stages:
 
