@@ -2,7 +2,7 @@
 ## BigData on the spread of COVID-19 in the world
 
 ## Abstract
-This project is dedicated to conducting a basic analysis of BigData on the spread of COVID-19 in the world. We will learn how to make predictions based on linear regression, obtain statistics and create interactive maps showing the dynamics of the virus spread.
+In this project I will be conducting a basic analysis of BigData on the spread of COVID-19 in the world. I will then make predictions based on linear regression, obtain statistics and create interactive maps showing the dynamics of the virus spread.
 
 ## Introduction
 Nowadays, there is a lot of open data about the spread of COVID-19 in the world. However, few tools are presented to predict and visualize these processes.
