@@ -58,5 +58,5 @@ During the last part of the project, I produced interactive maps to show the spr
 
 
 
-The statistical data is obtained from [https://ourworldindata.org/coronavirus](https://ourworldindata.org/coronavirus?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkQuickLabsdatascienceinhealthcarebasicprognosticationandgeovisualization26633115-2022-01-01) under the Creative Commons BY license.
+
 
