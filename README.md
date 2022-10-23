@@ -34,8 +34,9 @@ After downloading the data, I needed to clean it up so that it was usable for ou
 ## Exploratory Data Analysis (EDA)
 I looked at the relationship between the different continents and the total cases. Below are highlights from the pivot table
 
+![covid cases](https://github.com/MusaMasango/BigData-on-the-spread-of-COVID-19-in-the-world/blob/main/pivot%20table.png)
 ![pivot table](https://github.com/MusaMasango/BigData-on-the-spread-of-COVID-19-in-the-world/blob/main/covid%20cases.png)
-![covid cases](C:\Users\Musa Masango\BigData on the spread of COVID-19 in the world\covid cases.png "covid cases")
+
 
 ## Materials and Methods
 In this project, we will learn the basic methods of time series forecasting and their visualization on interactive maps. The project consists of three stages:
