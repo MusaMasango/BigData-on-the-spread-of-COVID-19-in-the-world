@@ -37,35 +37,26 @@ I looked at the relationship between the different continents and the total case
 ![covid cases](https://github.com/MusaMasango/BigData-on-the-spread-of-COVID-19-in-the-world/blob/main/pivot%20table.png)
 ![pivot table](https://github.com/MusaMasango/BigData-on-the-spread-of-COVID-19-in-the-world/blob/main/covid%20cases.png)
 
+## Model Building 
+The first step of the model building was hypthothesis creation. There are two methods that I used to test my hyphothesis, namely
+* Creating models using sklearn
+* Time series
 
-## Materials and Methods
-In this project, we will learn the basic methods of time series forecasting and their visualization on interactive maps. The project consists of three stages:
+First I formulated an hyphothesis based on the number of cases in Africa and the other continents. I then split the data into train and test sets with a test size of 30%. I used the linear regression model then evaluated it using the Mean Absolute Error, Mean Squared Error and Root Mean Squared Error. I then compared the linear regression model with the statsmodel obtained from the statsmodel.api framework. The predicted values from these models are different from the actual values with some uncertainty.
 
-*   Download and preliminary analysis of data
-*   Forecasting
-*   Interactive maps
+Secondly I used the time series method to test my hyphothesis. In this case we only consider one time series since we are dealing with Africa. I then evaluated it using the Mean Absolute Error, Mean Squared Error and Root Mean Squared Error. The predicted values obtained using the time series are closer to the actual values. 
 
-The first stage will show you how to download data and pre-prepare it for the analysis:
+## Model Performance
+Out of the two methods, the time series performed better with an Mean Absolute Error: 765635.4335892488 when compared to the linear regression with an Mean Absolute Error (test): 162489418.69861022
 
-*   downloading data
-*   changing the data types of columns
-*   grouping data
-*   DataSet transformation
-*   elimination of missing data
+## Interactive maps
 
-At the stage of forecasting, we will deal with the methods of building and fitting models, as well as with the automation of statistical information calculation, in particular:
-
-*   hypothesis creation
-*   splitting the DataSet into training and test sets
-*   building models using 2 different frameworks
-*   calculation of basic statistical indicators
-*   forecasting time series
-
-At the stage of interactive maps, we will show how to display statistical information on interactive maps:
-
+During the last part of the project, I produced interactive maps to show the spread of covid-19 on various european countries. The various steps in this process include
 *   data transformation for mapping
 *   downloading polygons of maps
 *   building interactive maps
+
+
 
 The statistical data is obtained from [https://ourworldindata.org/coronavirus](https://ourworldindata.org/coronavirus?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkQuickLabsdatascienceinhealthcarebasicprognosticationandgeovisualization26633115-2022-01-01) under the Creative Commons BY license.
 
