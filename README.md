@@ -16,9 +16,25 @@ At the end of the project, we will visualize the dynamics of COVID-19 infection 
 
 ## Code and Resources used
 
-**Python Version**:3.9.12 \
-**Packages**:pandas,numpy,sklearn,matplotlib,seaborn \\ 
-**Data Source**:https://ourworldindata.org/coronavirus \
+**Python Version**:3.9.12 
+
+**Packages**:pandas,numpy,sklearn,matplotlib,seaborn
+
+**Data Source**:https://ourworldindata.org/coronavirus 
+
+## Data Collection
+The data used in this project was downloaded from  [https://ourworldindata.org/coronavirus](https://ourworldindata.org/coronavirus?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkQuickLabsdatascienceinhealthcarebasicprognosticationandgeovisualization26633115-2022-01-01). I then read the csv file using the pd.read_csv() command.
+
+## Data Cleaning
+After downloading the data, I needed to clean it up so that it was usable for our model. I made the following changes
+* Removed columns with the majority of the NaN values
+* Replaced the columns with few missing values I replaced the missing values with either the most occuring entry(mode) for categorical data and with the mean value for numeric data. 
+* Changed the data types of columns into the correct ones (i.e object for categorical data and float/int for numeric data)
+
+## Exploratory Data Analysis (EDA)
+I looked at the relationship between the different continents and the total cases. Below are highlights from the pivot table
+![pivot table](pivot table.png)
+![covid cases](covid cases.png)
 
 ## Materials and Methods
 In this project, we will learn the basic methods of time series forecasting and their visualization on interactive maps. The project consists of three stages:
